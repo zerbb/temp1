@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.4
         with:
+          token: ${{ secrets.GH_API }}
           owner: zacharyrobin
           base: main
           head: main
