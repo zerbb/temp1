@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.4
         with:
-          owner: zerbb
+          owner: zacharyrobin
           base: main
           head: main
           pr_title: Fork Auto Sync
