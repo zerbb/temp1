@@ -16,5 +16,6 @@ jobs:
           owner: zacharyrobin
           base: main
           head: main
+          merge_method: merge
           pr_title: Auto Fork Sync
           pr_message: Upstream repository has been changed 
