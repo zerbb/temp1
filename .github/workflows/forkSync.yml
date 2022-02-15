@@ -13,9 +13,8 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.4
         with:
-          owner: zacharyrobin
+          owner: zerbb
           base: main
           head: main
-          merge_method: merge
-          pr_title: Auto Fork Sync
-          pr_message: Upstream repository has been changed 
+          pr_title: Fork Auto Sync
+          pr_message: Upstream repository has been changed - Please review changes 
