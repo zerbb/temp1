@@ -18,6 +18,5 @@ jobs:
           base: main
           head: main
           auto_approve: flase
-          ignore_fail: true
           pr_title: Fork Auto Sync
           pr_message: Upstream repository has been changed - Please review changes 
