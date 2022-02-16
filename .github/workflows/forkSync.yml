@@ -14,6 +14,7 @@ jobs:
       - uses: tgymnich/fork-sync@v1.3
         with:
           owner: zacharyrobin
+          github_token: ${{ secrets.GH_API }} 
           base: main
           head: main
           auto_approve: flase
