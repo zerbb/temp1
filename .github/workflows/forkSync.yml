@@ -11,12 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@v1.3
+      - uses: tgymnich/fork-sync@v1.4
         with:
           owner: zacharyrobin
-          github_token: ${{ secrets.GH_API }} 
           base: main
           head: main
-          auto_approve: flase
+          ignore_fail: true
           pr_title: Fork Auto Sync
           pr_message: Upstream repository has been changed - Please review changes 
