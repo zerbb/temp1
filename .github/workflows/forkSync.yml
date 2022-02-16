@@ -14,9 +14,10 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         with:
           owner: zacharyrobin
+          token: ${{ secrets.GH_API }}
           base: main
           head: main
           auto_approve: flase
-          ignore_failure: true 
+          ignore_failure: true
           pr_title: Fork Auto Sync
           pr_message: Upstream repository has been changed - Please review changes 
