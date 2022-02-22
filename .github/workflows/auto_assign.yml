@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: kentaro-m/auto-assign-action@v1.0.1
         with:
+          repo-token: "${{ secrets.GH_TOKEN }}"
           configuration-path: '.github/auto_assignees.yml' # Only needed if you use something other than .github/auto_assign.yml
           
          
